@@ -4,12 +4,15 @@ import NavBar from "./Components/NavBar/NavBar";
 import CustomizedNavBar from "./Components/NavBar/CustomizedNavBar";
 import PricingOptions from "./Components/Pricing/PricingOptions";
 import ResultsChart from "./Components/ResultsChart/ResultsChart";
+import axios from "axios";
+import MarksChart from "./Components/MarksChart/MarksChart";
 
 const navData = async () => {
   const response = await fetch("navdata.json");
   return response.json();
 };
 
+const marksPromise = axios.get("marksData.json");
 function App() {
   const navPromise = navData();
 
@@ -34,6 +37,11 @@ function App() {
         <PricingOptions pricing={pricing}></PricingOptions>
       </Suspense>
       <ResultsChart></ResultsChart>
+      <Suspense
+        fallback={<span className="loading loading-spinner loading-xl"></span>}
+      >
+        <MarksChart marksPromise={marksPromise}></MarksChart>
+      </Suspense>
     </>
   );
 }

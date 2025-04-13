@@ -1,7 +1,6 @@
 import React from "react";
 import { SquareChevronRight } from "lucide-react";
 const PricingCard = ({ card }) => {
-  console.log(card);
   return (
     <div className="card bg-primary text-primary-content m-4">
       <div className="card-body">
