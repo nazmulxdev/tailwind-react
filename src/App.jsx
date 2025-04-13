@@ -3,6 +3,7 @@ import "./App.css";
 import NavBar from "./Components/NavBar/NavBar";
 import CustomizedNavBar from "./Components/NavBar/CustomizedNavBar";
 import PricingOptions from "./Components/Pricing/PricingOptions";
+import ResultsChart from "./Components/ResultsChart/ResultsChart";
 
 const navData = async () => {
   const response = await fetch("navdata.json");
@@ -32,6 +33,7 @@ function App() {
       >
         <PricingOptions pricing={pricing}></PricingOptions>
       </Suspense>
+      <ResultsChart></ResultsChart>
     </>
   );
 }

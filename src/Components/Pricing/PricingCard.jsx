@@ -9,8 +9,8 @@ const PricingCard = ({ card }) => {
         <p>{card.description}</p>
         <h3>Features</h3>
         <ul>
-          {card.features.map((feature) => (
-            <li className="flex gap-2">
+          {card.features.map((feature, index) => (
+            <li key={index} className="flex gap-2">
               {" "}
               <SquareChevronRight /> {feature}
             </li>

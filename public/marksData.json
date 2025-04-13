@@ -1,0 +1,93 @@
+[
+    {
+      "roll": 1,
+      "name": "Ayaan",
+      "marks": {
+        "math": 85,
+        "english": 78,
+        "science": 92
+      }
+    },
+    {
+      "roll": 2,
+      "name": "Sara",
+      "marks": {
+        "math": 90,
+        "english": 88,
+        "science": 95
+      }
+    },
+    {
+      "roll": 3,
+      "name": "Kabir",
+      "marks": {
+        "math": 72,
+        "english": 65,
+        "science": 70
+      }
+    },
+    {
+      "roll": 4,
+      "name": "Meera",
+      "marks": {
+        "math": 88,
+        "english": 91,
+        "science": 85
+      }
+    },
+    {
+      "roll": 5,
+      "name": "Zayan",
+      "marks": {
+        "math": 60,
+        "english": 58,
+        "science": 64
+      }
+    },
+    {
+      "roll": 6,
+      "name": "Riya",
+      "marks": {
+        "math": 95,
+        "english": 94,
+        "science": 96
+      }
+    },
+    {
+      "roll": 7,
+      "name": "Dev",
+      "marks": {
+        "math": 76,
+        "english": 82,
+        "science": 79
+      }
+    },
+    {
+      "roll": 8,
+      "name": "Ishita",
+      "marks": {
+        "math": 89,
+        "english": 87,
+        "science": 90
+      }
+    },
+    {
+      "roll": 9,
+      "name": "Arjun",
+      "marks": {
+        "math": 68,
+        "english": 72,
+        "science": 70
+      }
+    },
+    {
+      "roll": 10,
+      "name": "Nia",
+      "marks": {
+        "math": 81,
+        "english": 85,
+        "science": 83
+      }
+    }
+  ]
+  
