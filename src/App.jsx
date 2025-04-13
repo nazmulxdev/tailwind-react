@@ -26,7 +26,7 @@ function App() {
     loadPricing();
   }, []);
   return (
-    <>
+    <> 
       <Suspense>
         <CustomizedNavBar navData={navPromise}></CustomizedNavBar>
       </Suspense>
