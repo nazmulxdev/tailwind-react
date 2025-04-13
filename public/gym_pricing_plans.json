@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "title": "Basic Plan",
+    "price": "$29/month",
+    "icon": "FaDumbbell",
+    "description": "Perfect for beginners looking to stay active.",
+    "features": [
+      "Access to gym equipment",
+      "Locker room access",
+      "1 guest pass/month"
+    ],
+    "recommended": false
+  },
+  {
+    "id": 2,
+    "title": "Pro Plan",
+    "price": "$49/month",
+    "icon": "FaRunning",
+    "description": "Ideal for regular gym-goers and fitness lovers.",
+    "features": [
+      "Everything in Basic Plan",
+      "Unlimited guest passes",
+      "Group fitness classes",
+      "Free protein shake/month"
+    ],
+    "recommended": true
+  },
+  {
+    "id": 3,
+    "title": "Elite Plan",
+    "price": "$79/month",
+    "icon": "FaCrown",
+    "description": "All-access membership for serious athletes.",
+    "features": [
+      "Everything in Pro Plan",
+      "Personal trainer sessions (2/month)",
+      "Sauna & spa access",
+      "Priority booking for classes"
+    ],
+    "recommended": false
+  },
+  {
+    "id": 4,
+    "title": "Student Plan",
+    "price": "$19/month",
+    "icon": "FaUserGraduate",
+    "description": "Affordable fitness plan for full-time students.",
+    "features": [
+      "Limited gym access (6am\u20136pm)",
+      "Student-only group classes",
+      "Discounts on supplements"
+    ],
+    "recommended": false
+  },
+  {
+    "id": 5,
+    "title": "Couples Plan",
+    "price": "$89/month",
+    "icon": "FaHeart",
+    "description": "Train together with your partner or friend.",
+    "features": [
+      "Full gym access for 2 members",
+      "Shared personal trainer session",
+      "Access to partner workouts"
+    ],
+    "recommended": false
+  },
+  {
+    "id": 6,
+    "title": "Corporate Plan",
+    "price": "Custom Pricing",
+    "icon": "FaBriefcase",
+    "description": "Team wellness memberships for companies.",
+    "features": [
+      "Flexible group pricing",
+      "On-site classes available",
+      "Monthly wellness reports",
+      "Dedicated support manager"
+    ],
+    "recommended": false
+  }
+]
